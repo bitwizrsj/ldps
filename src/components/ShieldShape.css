@@ -1,0 +1,20 @@
+.shield-container {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    background: linear-gradient(to top right, #a02a95, #ff679f);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    border: 2px dashed #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile-image {
+    width: 90%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  

@@ -1,0 +1,21 @@
+.container{
+    height:50px;
+    width:100px;
+    position:relative;
+    overflow: hidden;
+}
+.div1 {
+    background: none repeat scroll 0 0 #e9e9e9;
+    left: -8px;
+}
+.div2 {
+    background: none repeat scroll 0 0 #44edcb;
+    right: -7px;
+}
+.div{
+    width: 57px;
+    top: -10px;
+    transform: rotate(18deg);
+    position: absolute;
+    height: 72px;
+}

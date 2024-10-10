@@ -1,0 +1,67 @@
+.footer {
+    position: relative;
+    overflow: hidden;
+    padding: 2rem 0;
+    background-color: #343a40;
+  }
+  
+  .footer .nav-link {
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+  }
+  
+  .footer .nav-link:hover {
+    color: #f8f9fa;
+    text-decoration: underline;
+  }
+  
+  .footer .contact-info a {
+    transition: color 0.3s ease;
+  }
+  
+  .footer .contact-info a:hover {
+    color: #f8f9fa;
+  }
+  
+  .footer .social-media a {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+  
+  .footer .social-media a:hover {
+    opacity: 1;
+  }
+  
+  .footer .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .footer .opacity-5 {
+    opacity: 0.5;
+  }
+  
+  .footer .opacity-8 {
+    opacity: 0.8;
+  }
+  
+  .footer .font-weight-bold {
+    font-weight: 700;
+  }
+  
+  .footer .me-2 {
+    margin-right: 0.5rem;
+  }
+  
+  .footer .me-3 {
+    margin-right: 1rem;
+  }
+  
+  .bg-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.05;
+    z-index: -1;
+  }
+  

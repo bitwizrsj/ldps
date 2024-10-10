@@ -1,0 +1,17 @@
+.accordion-button {
+    position: relative;
+  }
+  
+  .collapse-close,
+  .collapse-open {
+    transition: transform 0.3s ease;
+  }
+  
+  .collapse-open.rotate {
+    transform: rotate(180deg);
+  }
+  
+  .accordion-collapse {
+    transition: height 0.3s ease;
+  }
+  
